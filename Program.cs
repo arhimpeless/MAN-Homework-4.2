@@ -41,9 +41,9 @@
                     Console.ReadKey();
                 }
                 if (m != n)
-                    { 
+                {
                     Console.WriteLine("Неквадратно!\n");
-                    }
+                }
             }
         }
     }
