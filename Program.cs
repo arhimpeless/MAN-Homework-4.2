@@ -23,7 +23,7 @@
                         for (int y = 0; y < n; y++)  //перебор по y
                         {
                             array1[x, y] = rnd.Next(1, 20);
-                            Console.Write(array1[x, y]);
+                            Console.Write(array1[x, y] + "\t");
                         }
                         Console.WriteLine();
                     }
@@ -32,8 +32,8 @@
                     {
                         for (int y = 0; y < n; y++)
                         {
-                            array2[x, y] = array1[(n - 1) - x, y];
-                            Console.Write(array2[x, y]);
+                            array2[x, y] = array1[y, x];
+                            Console.Write(array2[x, y] + " \t");
                         }
                         Console.WriteLine();
                     }
